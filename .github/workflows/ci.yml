@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # uses lean standard action with all default values
+      # uses lean standard action with all default input values
       - uses: austinletson/lean-standard-action@develop

@@ -12,8 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # uses lean standard action
+      # uses lean standard action with all default values
       - uses: austinletson/lean-standard-action@develop
-        with:
-          # run lake test
-          test: true

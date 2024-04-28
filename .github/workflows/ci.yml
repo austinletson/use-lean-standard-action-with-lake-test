@@ -9,10 +9,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    uses: austinletson/lean-standard-action/.github/workflows/ci.yml@develop
+    # runs-on: ubuntu-latest
 
-    steps:
-      # uses lean standard action with all default input values
-      - uses: austinletson/lean-standard-action@develop
-        with:
-          check-reservoir-eligibility: true
+    # steps:
+    #   # uses lean standard action with all default input values
+    #   - uses: austinletson/lean-standard-action@develop
+    #     with:
+    #       check-reservoir-eligibility: true

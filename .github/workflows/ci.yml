@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  lean-workflow:
     uses: austinletson/lean-standard-action/.github/workflows/ci.yml@develop
     # runs-on: ubuntu-latest
 

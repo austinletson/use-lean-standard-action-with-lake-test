@@ -8,12 +8,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  lean-workflow:
-    uses: austinletson/lean-standard-action/.github/workflows/ci.yml@develop
-    # runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-    # steps:
-    #   # uses lean standard action with all default input values
-    #   - uses: austinletson/lean-standard-action@develop
-    #     with:
-    #       check-reservoir-eligibility: true
+    steps:
+      # uses lean standard action with all default input values
+      - uses: austinletson/lean-standard-action@develop
+        with:
+          check-reservoir-eligibility: true

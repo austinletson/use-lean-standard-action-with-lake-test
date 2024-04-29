@@ -16,3 +16,4 @@ jobs:
       - uses: austinletson/lean-standard-action@develop
         with:
           check-reservoir-eligibility: true
+          mathlib-cache: false

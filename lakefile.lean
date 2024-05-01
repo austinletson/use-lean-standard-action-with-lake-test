@@ -15,4 +15,4 @@ lean_exe «use-lean-standard-action-with-lake-test» where
 script test do
   println! "Running fake tests..."
   println! "Fake tests passed!"
-  return 0
+  return 1

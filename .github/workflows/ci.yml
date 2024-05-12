@@ -13,7 +13,6 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: austinletson/lean-standard-action@develop
+      - uses: leanprover/lean-action@release/v1-alpha
         with:
-          check-reservoir-eligibility: true
-          mathlib-cache: false
+          test: true

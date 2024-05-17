@@ -11,8 +11,8 @@ lean_lib «UseLeanStandardActionWithLakeTest» where
 lean_exe «use-lean-standard-action-with-lake-test» where
   root := `Main
 
-@[test_runner]
- script test do
-  println! "Running fake tests..."
-  println! "Fake tests passed!"
-  return 0
+-- @[test_runner]
+-- script test do
+--  println! "Running fake tests..."
+--  println! "Fake tests passed!"
+--  return 0

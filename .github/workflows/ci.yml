@@ -13,6 +13,6 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@release/v1-alpha
+      - uses: leanprover/lean-action@26-use-lake-check-test-to-detect-absence-of-a-test-runner
         with:
           test: true

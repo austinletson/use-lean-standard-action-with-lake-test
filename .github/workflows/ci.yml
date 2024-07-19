@@ -15,7 +15,4 @@ jobs:
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values
       - uses: leanprover/lean-action@46-update-the-lint-step-to-use-the-more-flexible-lake-lint
-        with:
-          test: true
-          lint: true
           

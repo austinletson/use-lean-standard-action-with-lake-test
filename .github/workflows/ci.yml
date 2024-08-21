@@ -17,8 +17,8 @@ jobs:
           : Test log groups
           echo "::group::Test group"
           echo "within log group"
+          false
           echo "::endgroup::"
-          exit 1
 
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values

@@ -17,6 +17,7 @@ jobs:
           : Test log groups
           echo "::group::Test group"
           echo "within log group"
+          false
           echo "::endgroup::"
 
       - uses: actions/checkout@v4

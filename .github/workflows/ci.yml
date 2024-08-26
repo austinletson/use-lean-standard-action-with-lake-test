@@ -21,7 +21,7 @@ jobs:
 
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@test-fix-log-group-expansion
+      - uses: leanprover/lean-action@fix-log-group-expansion-second-try
         with:
           use-github-cache: false
           

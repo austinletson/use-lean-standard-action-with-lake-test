@@ -15,7 +15,7 @@ lean_exe «use-lean-standard-action-with-lake-test» where
  script test do
   println! "Running fake tests..."
   println! "Fake tests failed!"
-  return 0
+  return 1
 
 @[lint_driver]
  script lint do

@@ -12,13 +12,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: test log groups
-        run: |
-          : Test log groups
-          echo "::group::Test group"
-          echo "within log group"
-  
-
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values
       - uses: leanprover/lean-action@v1

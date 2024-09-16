@@ -21,6 +21,6 @@ jobs:
 
       - uses: actions/checkout@v4
       # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@fix-redundant-cache-hit-error
+      - uses: leanprover/lean-action@v1
 
       
